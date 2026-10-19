@@ -1,0 +1,17 @@
+{
+  "karma_activate": {
+    "sounds": [
+      {
+        "name": "karma:karma_activate",
+        "stream": false
+      }
+    ]
+  },
+  "karma_desactivate": {
+    "category": "players",
+    "subtitle": "subtitles.karma.karma_desactivate",
+    "sounds": [
+      "karma:karma_desactivate"
+    ]
+  }
+}
