@@ -1,0 +1,27 @@
+{
+  "karma_activate": {
+    "category": "players",
+    "subtitle": "subtitles.karma.karma_activate",
+    "sounds": [ "karma:karma_activate" ]
+  },
+  "karma_desactivate": {
+    "category": "players",
+    "subtitle": "subtitles.karma.karma_desactivate",
+    "sounds": [ "karma:karma_desactivate" ]
+  },
+  "karma_absorb_start": {
+    "category": "players",
+    "subtitle": "subtitles.karma.karma_absorb_start",
+    "sounds": [ "karma:karma_absorb_start" ]
+  },
+  "karma_absorb_loop": {
+    "category": "players",
+    "subtitle": "subtitles.karma.karma_absorb_loop",
+    "sounds": [ "karma:karma_absorb_loop" ]
+  },
+  "karma_absorb_end": {
+    "category": "players",
+    "subtitle": "subtitles.karma.karma_absorb_end",
+    "sounds": [ "karma:karma_absorb_end" ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "karma",
+	"version": "${version}",
+	"name": "Karma (Boruto)",
+	"description": "Karma de Boruto: buffs pasivos, absorción de proyectiles y purificación.",
+	"authors": [
+		"g-thepower"
+	],
+	"contact": {
+		"sources": "https://github.com/g-thepower/proyecto_karma"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/karma/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.jinyami.karma.Karma"
+		],
+		"client": [
+			"com.jinyami.karma.client.KarmaClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "karma.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
